@@ -60,6 +60,11 @@ p {
     background-color: #222;
 }
 
+.bg-light {
+    color: #222;
+    background-color: #fff;
+}
+
 .text-faded {
     color: rgba(255,255,255,.7);
 }
@@ -256,6 +261,10 @@ header .header-content .header-content-inner p {
 
 .service-box p {
     margin-bottom: 0;
+}
+
+.social-icons i{
+    margin: 0 5px 0 5px;
 }
 
 .portfolio-box {
@@ -473,4 +482,8 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #222;
+}
+
+.question{
+    margin-right:5px;
 }
