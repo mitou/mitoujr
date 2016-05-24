@@ -45,4 +45,18 @@
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
 
+    $.notify({
+	// options
+	    message: '応募締め切りが6/10に変更されました。',
+        url: "#about",
+        target: "_self"
+    },{
+	// settings
+	    type: 'info',
+        placement: {
+		from: "bottom",
+		align: "right"
+	    }
+    });
+    
 })(jQuery); // End of use strict
