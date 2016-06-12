@@ -47,7 +47,7 @@
 
     $.notify({
 	// options
-	    message: '応募締め切りが6/10に変更されました。',
+	    message: '応募期間は終了しました。厳正な審査の結果、4プロジェクトが採択されました。',
         url: "#about",
         target: "_self"
     },{
