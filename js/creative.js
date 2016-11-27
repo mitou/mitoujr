@@ -47,8 +47,8 @@
 
     $.notify({
 	// options
-	    message: '応募期間は終了しました。厳正な審査の結果、4プロジェクトが採択されました。',
-        url: "#about",
+	    message: '2016年度成果報告会を実施し、その成果を公開しました。',
+        url: "#2016",
         target: "_self"
     },{
 	// settings
