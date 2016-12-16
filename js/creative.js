@@ -47,8 +47,8 @@
 
     $.notify({
 	// options
-	    message: '2016年度成果報告会を実施し、その成果を公開しました。',
-        url: "#2016",
+	    message: '2017年未踏ジュニアキャンプに関する情報はこちら。',
+        url: "./camp/index.html",
         target: "_self"
     },{
 	// settings
