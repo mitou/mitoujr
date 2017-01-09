@@ -47,8 +47,8 @@
 
     $.notify({
 	// options
-	    message: '2017年度概要を公開しました。',
-        url: "#about",
+	    message: 'メンター情報を公開しました。',
+        url: "#mentor",
         target: "_self"
     },{
 	// settings
