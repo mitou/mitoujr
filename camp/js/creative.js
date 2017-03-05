@@ -47,7 +47,7 @@
 
     $.notify({
 	// options
-	    message: 'メンター情報を公開しました。',
+	    message: '10名の採択者を決定しました。メンター情報も更新されています。',
         url: "#mentor",
         target: "_self"
     },{
