@@ -47,8 +47,8 @@
 
     $.notify({
 	// options
-	    message: '10名の採択者を決定しました。メンター情報も更新されています。',
-        url: "#mentor",
+	    message: '2017年度未踏ジュニアキャンプは終了しました。2017年度未踏ジュニアについてはこちら。',
+        url: "../index.html",
         target: "_self"
     },{
 	// settings
