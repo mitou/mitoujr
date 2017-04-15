@@ -44,11 +44,11 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-
+    /*
     $.notify({
 	// options
-	    message: '2017年未踏ジュニアキャンプに関する情報はこちら。',
-        url: "./camp/index.html",
+	    message: '2017年未踏ジュニア近日中に募集開始します。',
+        url: "./index.html#about",
         target: "_self"
     },{
 	// settings
@@ -57,6 +57,6 @@
 		from: "bottom",
 		align: "right"
 	    }
-    });
+    });*/
     
 })(jQuery); // End of use strict
