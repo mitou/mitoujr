@@ -511,3 +511,7 @@ body {
   width: 100% !important;
   height: 100% !important;
 }
+
+#logo {
+    max-width: 200px;
+}
