@@ -519,6 +519,10 @@ body {
     max-width: 200px;
 }
 
+.logo {
+    height: 50px;
+}
+
 @font-face{ 
   font-family: 'mplus-1p-regular';
   src: url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.eot');
