@@ -523,6 +523,10 @@ body {
     height: 50px;
 }
 
+.logos {
+    height: 75px;
+}
+
 @font-face{ 
   font-family: 'mplus-1p-regular';
   src: url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.eot');
