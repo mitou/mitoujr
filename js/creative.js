@@ -44,12 +44,12 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-    /*
+    
     $.notify({
 	// options
-	    message: '2017年未踏ジュニア近日中に募集開始します。',
-        url: "./index.html#about",
-        target: "_self"
+	    message: '最終成果報告会への参加申し込みを開始しました。',
+        url: "https://mitoupgwg.connpass.com/event/66558/",
+        target: "_blank"
     },{
 	// settings
 	    type: 'info',
@@ -57,6 +57,6 @@
 		from: "bottom",
 		align: "right"
 	    }
-    });*/
+    });
     
 })(jQuery); // End of use strict
