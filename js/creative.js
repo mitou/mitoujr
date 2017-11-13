@@ -44,7 +44,7 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-    
+    /*
     $.notify({
 	// options
 	    message: '最終成果報告会への参加申し込みを開始しました。',
@@ -58,5 +58,5 @@
 		align: "right"
 	    }
     });
-    
+   */ 
 })(jQuery); // End of use strict
