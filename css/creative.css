@@ -529,8 +529,8 @@ body {
 
 @font-face{ 
   font-family: 'mplus-1p-regular';
-  src: url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.eot');
-  src: url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.eot?#iefix') format('embedded-opentype'),
-       url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.woff') format('woff'),
-       url('http://mplus-webfonts.sourceforge.jp/mplus-1p-regular.ttf') format('truetype');
+  src: url('//mplus-webfonts.sourceforge.jp/mplus-1p-regular.eot');
+  src: url('//mplus-webfonts.sourceforge.jp/mplus-1p-regular.eot?#iefix') format('embedded-opentype'),
+       url('//mplus-webfonts.sourceforge.jp/mplus-1p-regular.woff') format('woff'),
+       url('//mplus-webfonts.sourceforge.jp/mplus-1p-regular.ttf') format('truetype');
 }
