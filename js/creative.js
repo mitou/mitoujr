@@ -44,11 +44,11 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-    /*
+    
     $.notify({
 	// options
-	    message: '最終成果報告会への参加申し込みを開始しました。',
-        url: "https://mitoupgwg.connpass.com/event/66558/",
+	    message: 'スケジュールを公開しました。',
+        url: "https://jr.mitou.org/#about",
         target: "_blank"
     },{
 	// settings
@@ -58,5 +58,5 @@
 		align: "right"
 	    }
     });
-   */ 
+   
 })(jQuery); // End of use strict
