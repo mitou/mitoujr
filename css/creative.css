@@ -520,11 +520,13 @@ body {
 }
 
 .logo {
-    height: 50px;
+    height: 75px;
 }
 
 .logos {
-    height: 75px;
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
 }
 
 @font-face{ 
