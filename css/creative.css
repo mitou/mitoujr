@@ -544,3 +544,7 @@ body {
 #headerSub {
     color: rgba(255,255,255,1.0);
 }
+
+li {
+    font-size: 120%;
+}
