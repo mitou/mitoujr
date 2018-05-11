@@ -47,7 +47,7 @@
     
     $.notify({
 	// options
-	    message: '2018年度募集を開始しました。PM情報を更新しました。',
+	    message: '2018年度募集を締め切りました。',
         url: "https://jr.mitou.org/#about",
         target: "_blank"
     },{
