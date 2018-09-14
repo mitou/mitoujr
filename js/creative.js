@@ -47,8 +47,8 @@
     
     $.notify({
 	// options
-	    message: '2018年度募集を締め切りました。',
-        url: "https://jr.mitou.org/#about",
+	    message: '2018年度成果報告会の参加募集を開始しました。',
+        url: "https://jr.mitou.org/#2018demoday",
         target: "_blank"
     },{
 	// settings
