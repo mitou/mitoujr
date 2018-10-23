@@ -47,9 +47,9 @@
     
     $.notify({
 	// options
-	    message: '2018年度成果報告会の参加募集を開始しました。',
-        url: "https://jr.mitou.org/#2018demoday",
-        target: "_blank"
+	    message: '未踏ジュニアスーパークリエータ認定式を開催します。',
+        url: "./index.html#2018s",
+        target: ""
     },{
 	// settings
 	    type: 'info',
