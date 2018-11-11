@@ -119,7 +119,7 @@ aside {
     text-transform: uppercase;
     font-size: 13px;
     font-weight: 700;
-    color: #222;
+    color: #fff;
 }
 
 .navbar-default .nav > li>a:hover,
@@ -195,7 +195,7 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/jrback.png);
+    background-image: url(../img/jrback2018.png);
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -548,4 +548,8 @@ body {
 
 li {
     font-size: 120%;
+}
+
+#mainBody {
+    overflow-x:hidden;
 }

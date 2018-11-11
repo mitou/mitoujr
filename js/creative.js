@@ -44,10 +44,10 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-    
+    /*
     $.notify({
 	// options
-	    message: '未踏ジュニアスーパークリエータ認定式を開催します。',
+	    message: '',
         url: "./index.html#2018s",
         target: ""
     },{
@@ -57,6 +57,6 @@
 		from: "bottom",
 		align: "right"
 	    }
-    });
+    });*/
    
 })(jQuery); // End of use strict
