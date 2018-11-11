@@ -521,7 +521,7 @@ body {
 }
 
 .logo {
-    height: 75px;
+    height: 60px;
 }
 
 .logos {
@@ -552,4 +552,26 @@ li {
 
 #mainBody {
     overflow-x:hidden;
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    header {
+        height: 100%;
+    }    
+}
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        height: 100%;
+    }    
 }
