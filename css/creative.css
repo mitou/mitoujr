@@ -192,7 +192,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    height: 90vh;
     text-align: center;
     color: #fff;
     background-image: url(../img/jrback2018.png);
