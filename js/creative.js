@@ -44,12 +44,12 @@
 
     // Initialize WOW.js Scrolling Animations
     new WOW().init();
-    /*
+    
     $.notify({
 	// options
-	    message: '',
-        url: "./index.html#2018s",
-        target: ""
+	    message: '2019年度未踏ジュニアのオンライン説明会を開催します。',
+        url: "https://www.youtube.com/watch?v=6BbDefskrO0",
+        target: "_blank"
     },{
 	// settings
 	    type: 'info',
@@ -57,6 +57,6 @@
 		from: "bottom",
 		align: "right"
 	    }
-    });*/
+    });
    
 })(jQuery); // End of use strict
