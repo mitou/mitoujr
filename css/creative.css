@@ -25,7 +25,7 @@ hr.light {
 }
 
 a {
-    color: #9068be;
+    color: #28A13A;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -33,7 +33,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #6b32ad;
+    color: #28A13A;
 }
 
 h1,
@@ -55,7 +55,7 @@ p {
 }
 
 .bg-primary {
-    background-color: #6ed3cf;
+    background-color: #28A13A;
 }
 
 .bg-primary a{
@@ -106,12 +106,12 @@ aside {
     text-transform: uppercase;
     font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
     font-weight: 700;
-    color: #6b32ad;
+    color: #28A13A;
 }
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
-    color: #6b32ad;
+    color: #28A13A;
 }
 
 .navbar-default .nav > li>a,
@@ -124,12 +124,12 @@ aside {
 
 .navbar-default .nav > li>a:hover,
 .navbar-default .nav>li>a:focus:hover {
-    color: #9068be;
+    color: #28A13A;
 }
 
 .navbar-default .nav > li.active>a,
 .navbar-default .nav>li.active>a:focus {
-    color: #9068be!important;
+    color: #28A13A!important;
     background-color: transparent;
 }
 
@@ -170,12 +170,12 @@ aside {
 
     .navbar-default.affix .navbar-header .navbar-brand {
         font-size: 14px;
-        color: #9068be;
+        color: #28A13A;
     }
 
     .navbar-default.affix .navbar-header .navbar-brand:hover,
     .navbar-default.affix .navbar-header .navbar-brand:focus {
-        color: #6b32ad;
+        color: #28A13A;
     }
 
     .navbar-default.affix .nav > li>a,
@@ -185,7 +185,7 @@ aside {
 
     .navbar-default.affix .nav > li>a:hover,
     .navbar-default.affix .nav>li>a:focus:hover {
-        color: #9068be;
+        color: #28A13A;
     }
 }
 
@@ -345,7 +345,7 @@ header .header-content .header-content-inner p {
 }
 
 .text-primary {
-    color: #9068be;
+    color: #28A13A;
 }
 
 .no-gutter > [class*=col-] {
@@ -408,9 +408,9 @@ fieldset[disabled] .btn-default.active {
 }
 
 .btn-primary {
-    border-color: #9068be;
+    border-color: #28A13A;
     color: #fff;
-    background-color: #9068be;
+    background-color: #28A13A;
     -webkit-transition: all .35s;
     -moz-transition: all .35s;
     transition: all .35s;
@@ -422,9 +422,9 @@ fieldset[disabled] .btn-default.active {
 .btn-primary:active,
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
-    border-color: #6b32ad;
+    border-color: #28A13A;
     color: #fff;
-    background-color: #6b32ad;
+    background-color: #28A13A;
 }
 
 .btn-primary:active,
@@ -451,12 +451,12 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #9068be;
-    background-color: #9068be;
+    border-color: #28A13A;
+    background-color: #28A13A;
 }
 
 .btn-primary .badge {
-    color: #9068be;
+    color: #28A13A;
     background-color: #fff;
 }
 
