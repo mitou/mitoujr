@@ -161,6 +161,22 @@
             </div>
 
 	    <style type="text/css">
+	     /*改行位置の調整*/
+	     .ignore-pc{
+               display:none;
+	     }
+	     .ignore-sp{
+               display:inline;
+	     }
+	     @media screen and (max-width: 640px) {
+	       .ignore-pc{
+		 display:inline;
+	       }
+	       .ignore-sp{
+		 display:none;
+	       }
+	     }
+
 	     .youtube-video {
 	       position: relative;
 	       margin-bottom: 30px;
@@ -174,11 +190,11 @@
 	       width:  95% !important;
 	       height: 100% !important;
 	     }
-
 	    </style>
-	    <div class="col-lg-8 col-lg-offset-2 text-center" style="padding-top: 100px;">
-              <h2 class="section-heading">オンライン説明会 (録画版)</h2>
-	      <p class="text-muted" style="padding-top: 5px; padding-bottom: 20px;">2019年2月3日に収録した説明会の様子です。</p>
+
+	    <div id="welcome" class="col-lg-8 col-lg-offset-2 text-center" style="padding-top: 100px;">
+              <h2 class="section-heading">オンライン説明会<br class="ignore-pc">（録画版）</h2>
+	      <p class="text-muted" style="padding-top: 5px; padding-bottom: 20px;">2月3日に収録した説明会の動画です。</p>
 
 	      <div class="youtube-video">
 		<iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
