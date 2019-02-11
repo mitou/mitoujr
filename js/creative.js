@@ -47,8 +47,8 @@
     
     $.notify({
 	// options
-	    message: '2019年度未踏ジュニアのオンライン説明会を開催します。',
-        url: "https://www.youtube.com/channel/UCYHl353XT5aTdKMLJ-xxZoQ/live",
+	    message: '2019年度未踏ジュニアのオンライン説明会を開催しました。',
+        url: "https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true",
         target: "_blank"
     },{
 	// settings
