@@ -15,7 +15,12 @@
     <meta name="twitter:image" content="https://jr.mitou.org/img/twitterCard.png">
 
     <title>Mitou Junior - U-17 Mitou Project</title>
-    <link rel="icon" href="./img/favicon.png" sizes="32x32" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="./img/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
 
@@ -49,7 +54,7 @@
 </head>
 
 <body id="page-top">
-
+    <div id="mainBody">
     <!-- Facebook plugin -->
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
@@ -77,13 +82,19 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a class="page-scroll" href="#about">About</a>
+                        <a class="page-scroll" href="#about">2019 Overview</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#2016">Creators</a>
+                        <a class="page-scroll" href="#pms">2019 PM</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#sponsor">スポンサー</a>
+                        <a class="page-scroll" href="#2018">2018 Results</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#qa">FAQ</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#sponsor">Sponsor</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -98,11 +109,12 @@
     <header>
         <div class="header-content">
             <div class="header-content-inner">
-                <img src="./img/mitoujrlogo-transparent.png" id="logo" class="img-responsive center-block wow bounceIn" data-wow-delay=".05s">
+                <img src="./img/mitoujrlogo-transparent-2018.png" id="logo" class="img-responsive center-block wow bounceIn" data-wow-delay=".05s">
                 <hr>
-                <h1>Make Your Product</h1> <!-- Making Ideas Come Alive などの方が直訳？ -->
+                <h1>Make Ideas Come Alive</h1>
                 <p>Mitou Junior provides financial (up to 500K yen) and mentoring support for talented U-17 creators and programmers who have unique ideas!</p>
                 <a href="#about" class="btn btn-primary btn-xl page-scroll">About</a>
+                <a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" class="btn btn-primary btn-xl page-scroll" target="_blank">Apply</a>
             </div>
         </div>
     </header>
@@ -128,214 +140,191 @@
                         <i class="fa fa-4x fa-dollar text-primary sr-icons" data-sr-id="2" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
                         <h3>Financial Support</h3>
                         <p class="text-muted">Each group will be eligible to receive up to 500K yen as funding for development.</p>
+                        <br><br>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-gear text-primary sr-icons" data-sr-id="2" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
-                        <h3>Places to develop</h3>
-                        <p class="text-muted">When necessary, places to develop will be provided.</p>
+                        <h3>Place to develop</h3>
+                        <p class="text-muted">If necessary, places to develop will be provided.</p>
+                    <br><br>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 text-center">
                     <div class="service-box">
                         <i class="fa fa-4x fa-chain text-primary sr-icons" data-sr-id="2" style="; visibility: visible;  -webkit-transform: scale(1); opacity: 1;transform: scale(1); opacity: 1;-webkit-transition: -webkit-transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; transition: transform 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s, opacity 0.6s cubic-bezier(0.6, 0.2, 0.1, 1) 0s; "></i>
-                        <h3>Recommendation to the Mitou Program</h3>
-                        <p class="text-muted">Creators certified as Mitou Junior Super Creators will be eligible to be recommended to next year's Mitou Program.</p>
+                        <h3>Certified as Mitou Junior Super Creators</h3>
+                        <p class="text-muted">Creators who achieved outstanding result are certified as Mitou Junior Super Creators.</p>
                     </div>
                 </div>
             </div>
+            
+         <style type="text/css">
+	     /*改行位置の調整*/
+	     .ignore-pc{
+               display:none;
+	     }
+	     .ignore-sp{
+               display:inline;
+	     }
+	     @media screen and (max-width: 640px) {
+	       .ignore-pc{
+		        display:inline;
+	       }
+	       .ignore-sp{
+                display:none;
+	       }
+	     }
+             
+	     .youtube-video {
+	       position: relative;
+	       margin-bottom: 30px;
+	       padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+	       padding-top: 25px;
+	     }
+	     .youtube-video iframe {
+	       position: absolute;
+	       top:  0;
+	       left: 3.5%;
+	       width:  95% !important;
+	       height: 100% !important;
+	     }
+	    </style>
+
+	    <div id="welcome" class="col-lg-8 col-lg-offset-2 text-center" style="padding-top: 100px;">
+              <h2 class="section-heading">Online session<br class="ignore-pc">（Recorded）</h2>
+	      <p class="text-muted" style="padding-top: 5px; padding-bottom: 20px;">Movie of the online session on February 3rd</p>
+
+	      <div class="youtube-video">
+		<iframe width="779" height="438" src="https://www.youtube.com/embed/videoseries?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	      </div>
+	      
+              <p class="text-muted">By Youtube<a href="https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true" target="_blank">watch</a></p>
+            </div>
+            
         </div>
      </section>
 
-
-     <section id="2017">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2 class="section-heading">Projects (2017)</h2>
-                        <p class="text-muted">11 projects (17 creators) were adopted from a total of 41 applications.</p>
-                        <hr class="primary">
-                        <p class="text-muted">The creators below are certificed as Mitou Junior Super Creators.</p>
-                        <p class="text-info"><a href="#sugano">Kaede Sugano (narratica〜story consultant〜)</a></p>
-                        <p class="text-info"><a href="#yano">Rei Yano (Photo Stand for Elderly Care)</a></p>
-                        <p class="text-info"><a href="#kato">Shu Kato (DrawCode〜Drawing HTML by connecting blocks〜)</a></p>
-                        <p class="text-info"><a href="#ohno">Tomoki Ohno (Visual Programming Language for Learning the Concept of FRP)</a></p>
-                        <p class="text-info"><a href="#ohno">Sosuke Suzuki (Visual Programming Language for Learning the Concept of FRP)</a></p>
-                        <p class="text-info"><a href="#otsuka">Ray Ohtsuka (Raku Raku(easy)Yomi Yomi(reading))</a></p>
-                        <hr class="primary">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <h3>A Personalized Music Recommendation Mobile Application</h3>
-                        <p class="text-info">Masato Sasaki, Kotaro Suto (Seki PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/gfrleUVHGZs?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-    
-                        <h5>Summary</h5>
-                        <p class="text-muted">They developed an iOS application which recommends songs on Apple Music based on the songs that the users have sung at Kareoke bars and films that they have watched.</p>
-                        <h5>A Message from Seki PM</h5>
-                        <p class="text-muted">A project to create a service to listen to music based on the users' memories that started from the realization that we don't listen to the songs we used to before as much now. They learnt how to realize and create their ideals for their project practically. They weren't able to release the app, so I would like that to be their next task. I hope that they will create services that will change society through the experiences that they have gained through this experience. </p> 
-                    </div>
-                    
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <h3>Web Application to Share Information and Schedules in Schools</h3>
-                        <p class="text-info">Yutaro Tanaka, Yo Nakahara, Manami Nakagawa (Seki PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/FSfQnk2evnY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-                        <h5>Summary</h5>
-                        <p class="text-muted">They developed a web application, PaPa, that aids the communication and sharing of information between teachers and students within educational environments.</p>
-                        <h5>A Message from Seki PM</h5>
-                        <p class="text-muted">They started the project aiming to resolve the problems that lie within the IT communications system in their own school. They were able to actually have their classmates use the app, recieve feedback and make improvements regardless of the fact they started with almost no programming experience. I hope that they will create services that will change society through the experiences that they have gained through this experience whilst improving on their programming skills further. </p>
-                    </div>
-                </div>
-                <hr class="primary">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <h3>Anki Cookie</h3>
-                        <p class="text-info">Ayaka Nakasuji (Ukai PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/CRvzQtz90RM?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-    
-                        <h5>Summary</h5>
-                        <p class="text-muted">Anki-cookie helps motivate students through personalized cookies with cookies printed with words based on their results from web quizzes that they have taken.</p>
-                        <h5>A Message from Ukai PM</h5>
-                        <p class="text-muted">Based on her personal experiences, she developed a system named Anki-cookie which fosters motivation to learn kanjis among students who live in foreign countries by engraving the kanjis the user has remembered on cookies that they will recieve as a reward. The fact that she made at least a working prototype in very limited time she had should really be commended. I’d like her to continuously challenge widening the possibilities of great ideas.</p>
-                    </div>
-                    
-                    <div class="col-lg-6 col-md-6 text-center" id="sugano">
-                        <h3>narratica〜story consultant〜</h3>
-                        <p class="text-info">Kaede Sugano (Yonetsuji PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/7o0_Q_nBGi4?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-                        <h5>Summary</h5>
-                        <p class="text-muted">She developed a system which evaluates the story of movies based on the characters' emotional changes by analyzing the script of the movie and also analyzes your own writing using natural language processing.</p>
-                        <h5>A Message from Yonetsuji PM</h5>
-                        <p class="text-muted">I selected her as she had experience developing applications for smartphones and had a proposal that used an morphological analysis approach towards a difficult topic like story analysis. I would like her to praise her for the fact that during the duration of the program, she was able to create a program that analyzes the scenario morphology on the server side, and aspects such as the emotion graph on the client side whilst analyzing a number of actual scenarios. It is a field that has many prospects, so I look forward to her development. </p>
-                    </div>
-                </div>
-                <hr class="primary">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 text-center" id="yano">
-                        <h3>Photo Stand for Elderly Care</h3>
-                        <p class="text-info">Rei Yano (Yonetsuji PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lOrb8nH85qo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-    
-                        <h5>Summary</h5>
-                        <p class="text-muted">He developed a system with a camera and sensors to help caretakers to monitor elderly people. </p>
-                        <h5>A Message from Yonetsuji PM</h5>
-                        <p class="text-muted">Spurred on by the fact that he wanted to look after his grandfather, he was able to acquire data with cameras and sensors using a computer, then translated that data into a database and graphs, and even managed to categorize the acquired images using machine learning. I selected him as he is very talented, and able to develop on the client side, server side, and is able to build electronic devices. He punched above his weight with his engineering skills. I would like him to utilize his development skills further.</p>
-                    </div>
-                    
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <h3>Fall in Friends ～For Tokyo 2020～</h3>
-                        <p class="text-info">Tetsunosuke Shimoda (Teramoto PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xr2Jeb5cf7o?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-                        <h5>Summary</h5>
-                        <p class="text-muted">He developed an application for foreign visitors who want to ask questions to Japanese natives.</p>
-                        <h5>A Message from Teramoto PM</h5>
-                        <p class="text-muted">It is a project aiming to solve the problems that foreigners have when travelling in Japan by being able to overcome the communication barrier. He showed much motivation through taking questionaires at airports before he even started the project. He used a language new to him, but he learnt throughout the program and created a prototype. In that sense, I think this project has also helped his confidence. I want him to keep being able to make use of his ability to take actions.</p>
-                    </div>
-                </div>
-                <hr class="primary">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 text-center" id="kato">
-                        <h3>DrawCode　〜Drawing HTML by connecting blocks〜</h3>
-                        <p class="text-info">Shu Kato (Teramoto PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/t0Ho0S08hJI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-    
-                        <h5>Summary</h5>
-                        <p class="text-muted">He developed a web-based visual programming environment for novice programmers which enables web sites to be coded by connecting code-blocks.</p>
-                        <h5>A Message from Teramoto PJ</h5>
-                        <p class="text-muted">Programming course material is currently literally "a battle between powerhouses". He used his own experiences to search for a kind of block programming that would enable users to shift smoothly into text programming.  I highly commend the fact that through this project, he has not only thought about the ways to express the program, but acutally had users using it. Furthermore, I believe the possibilities that he could come up with would widen dramatically through learning programming even more himself. I would like him to create many things for as long as possible.</p>
-                    </div>
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <h3>"Listenable" Keyboard</h3>
-                        <p class="text-info">Hibiki Nemoto (Sasada PM)</p>
-    
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/foJCvFcYhv0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-                        <h5>Summary</h5>
-                        <p class="text-muted">A novel keyboard which has audio-recognition functionality in Japanese, English and Chinese was developed.</p>
-                        <h5>A Message from Sasada PM</h5>
-                        <p class="text-muted">Mr. Nemoto developed a "listenable keyboard" with voice recognition using a Raspberry Pi. It was stunning of him to perform a demonstaration with not only Japanese, but with English and Chinese also. In many parts of this device he used software and services already widely available, so it was not fundamentally difficult, but I praise him for the fact that he combined those aspects well to release it in a usable state. To be greedy, I would have liked him to make a proposal in which there were many usages of the keyboard. There are many aspects to overcome, but including these things, I want him to play an active part in society using the thing that he has learned during this program. </p>
-                    </div>
-                </div>
-                <hr class="primary">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 text-center">
-                        <h3>SmileI/OT</h3>
-                        <p class="text-info">Haruta Yamada, Motone Adachi, Yuki Tajima, Yamato Degawa (Nishio PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/uNES_ZXf8eg?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-    
-                        <h5>Summary</h5>
-                        <p class="text-muted">They developed an application which enables user to customize their own IoT devices without programming.</p>
-                        <h5>A Message from Nishio PJ</h5>
-                        <p class="text-muted">Despite the fact that Mr. Yamada is the team leader on paper, Mr. Adachi was the main developer. Mr. Adachi attempted to create software to spread IoT throughout the world by allowing users to use IoT devices without any programming. It was unfortunate that he was not able to perform a demonstaration in the end, but by using it, operating a web service from a Raspberry Pi, users can, besides other things, tweet the input from a sensor on the brower withou using any programming. It is unfortunate that they did not utilize me well enough, perhaps due to the fact that he may have wanted to do everything by himself. </p>
-                    </div>
-                    
-                    <div class="col-lg-6 col-md-6 text-center" id="ohno">
-                        <h3>Visual Programming Language for Learning the Concept of FRP</h3>
-                        <p class="text-info">Tomoki Ohno, Sosuke Suzuki (Yasukawa PM)</p>
-    
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/fejZIj2K9A8?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-                        <h5>Summary</h5>
-                        <p class="text-muted">They developed a new visual programming language which enables users to develop an application by connecting GUI elements placed.。</p>
-                        <h5>Message from Yasukawa PM</h5>
-                        <p class="text-muted">Despite being a high school student, Mr. Ohno and Mr. Suzuki already have enough skills to live off, so through this project they were able to focus on learning the development of product making. During the short term, they experienced the following phase of product development: releasing, learning from user testing, and publishing their product ( https://vamboo.net/ ) as an opensource, which should be one of the most common experiences in the near future. I hope they will make use of Mitou community in order to push the boundaries of the community and shape the unknown potentials and possibilities that this community has.</p>
-                    </div>
-                </div>
-                <hr class="primary">
-                <div class="row">
-                    <div class="col-lg-6 col-md-6 text-center" id="otsuka">
-                        <h3>Raku Raku(easy)Yomi Yomi(reading)</h3>
-                        <p class="text-info">Ray Ohtsuka (Suzuki PM)</p>
-                        <div class="youtube">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jk1pbg4tRAI?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
-                        </div>
-    
-                        <h5>Summary</h5>
-                        <p class="text-muted">
-                                This is an application which enables easy reading of articles for people who suffer from poor eyesight.
-                                The functionality is full of ingenious combination; displaying the characters, highlighting the area which is already being read, and tracking line of sight.
-                        </p>
-                        <h5>A Message from Suzuki PM</h5>
-                        <p class="text-muted">
-                            He developed an app to help people with poor eyesight to read newspapers. He was able to learn a new programming language, how to use a eyesight tracking device, and the design of presentations through developing an app whilst enjoying himself. Midway through his project he conducted a user test, redesigning the interface whilst talking direcly to the user. This is an important thing when making apps to help others. The functions that were technologically difficult to do will be solved through developing the project further.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    <section id="2017pm">
+     <section id="news">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Project Managers (for 2017)</h2>
+                    <h2 class="section-heading">Media coverage</h2>
                     <hr class="primary">
                 </div>
             </div>
         </div>
         <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-left">
+		            <p>2018/11/19 <a href="https://www.watch.impress.co.jp/kodomo_it/news/1153935.html" target="_blank">Passion for monozukuri of "Making something you like" shown by top creator under 17(Kids and IT)</a></p>
+		            <p>2018/11/15 <a href="https://edtechzine.jp/article/detail/1546" target="_blank">Making dream come true by Technology! Many varieties of projects presented at 2018 Mitou Junior Final Presetation (EdTechZine)</a></p>
+                    <p>2018/10/22 <a href="https://www.nikkei.com/article/DGXMZO36789660S8A021C1X30000/" target="_blank">Finding young genius - "Mitou Junior" (Nihon Keizai Newspaper)</a></p>
+                    <p>2018/04/12 <a href="https://edtechzine.jp/article/detail/829" target="_blank">Intern as a high school student!?  From being shut-in at home to successfully entering University by programming Mitou Junior Super Creator(EdTechZine)</a></p>
+                    <p>2018/04/05 <a href="https://www.watch.impress.co.jp/kodomo_it/news/1115000.html" target="_blank">Passing on knowledge to utilize great techology in the society! -Gunosy's Mr.Fukushima meets Mitou Junior Creators (Kids and IT)</a></p>
+                    <p>2018/03/30 <a href="https://www.watch.impress.co.jp/kodomo_it/news/1114349.html" target="_blank">“Compete by what you want to do" Getting valuable monozukuri experience through Mitou Junior～Interview of PM mentoring elementary, junior-high, and high school students～ (こどもとIT)</a></p>
+                    <p>2018/03/20 <a href="https://www.watch.impress.co.jp/kodomo_it/news/1112464.html" target="_blank">"Mitou Junior Super Creator" accredited as Keio University SFC campus' AO format admission (Kids and IT)</a></p>
+                    <p>2018/03/19 <a href="https://www.sfc.keio.ac.jp/news/012903.html" target="_blank">Adding "Mitou Junior Super Creator" and "Fab 3D contest prize winners" to AO admission C-type criteria (Keio University SFC campus)</a></p>
+                    <p>2018/03/19 <a href="https://edtechzine.jp/article/detail/780" target="_blank">Releasing 5 iPhone apps as 2nd year junior-high student, Mitou Junior Super Creator who thinks of one app idea a day (EdTechZine)</a></p>
+                    <p>2018/03/05 <a href="https://resemom.jp/article/2018/03/05/43295.html" target="_blank">Maximum 500k for admitted group- "Mitou Junior" for elementary, junior-high, high school and techical college students (resemom) </a></p>
+                    <p>2018/03/05 <a href="https://www.watch.impress.co.jp/kodomo_it/news/1109737.html" target="_blank">"Mitou Junior" which finds and supports future super creators to be held again this year- applications due on May 11th (Kids and IT)</a></p>
+                    <p>2017/12/01 <a href="https://codeiq.jp/magazine/2017/12/56070/" target="_blank">11 projects of elementary, junior-high and high school students with unique idea and technology - What Mitou Junior creates now (CodeIQ Magazine)</a></p>
+                    <p>2017/11/29 <a href="https://www.watch.impress.co.jp/kodomo_it/news/1093210.html" target="_blank">Mentor nails that stick out! Elementary, junior-high and high school creators who stick out in programming (Kids and IT)</a></p>
+                    </ol>  
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <aside class="bg-primary">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" target="_blank" class="btn btn-default btn-xl wow tada">Apply (By April 28th 23:59)</a>
+            </div>
+        </div>
+    </aside>
+    
+    <section class="bg-dark" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-left">
+                    <h2 class="section-heading">2019 Overview</h2>
+                    <p>Target: Individuals and groups(less than 4 members) who are under 17 on April 1st, 2019</p>
+                    <p>Duration: About 5 months from 2019 mid-June to October(planned)</p>
+                    <p>Fee: Free(Transportation and accomodation fee for events such as boost camp and mid-camp will also be covered)</p>
+                    <h2 class="section-heading">Flow from application to selection</h2>
+                    <ol type="1">
+                        <li>Plan a project</li>
+                        <p>Plan what kind of software or hardware project you want to work on during the project period. You can work in a group up to 4 people. You can discuss with adults at places like programming school you go to.</p>
+                        <li>Prepare application document</li>
+                        <p>Write down the plan of the project and your development experience and self-introduction. Download the form <a href="https://jr.mitou.org/asset/mitoujr_application_2019.zip" target="_blank">Here (Word/Pages)</a></p>
+                        <li><a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" target="_blank">Apply</a>through Application form<b>(By April 28th 23:59）</b></li>
+                        <p>Enter applicant's information, online meeting preferred dates, and other information through<a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" target="_blank">application</a>and appload written application form。If you submit same application multiple times, what you apploaded before will be invalid.</p>
+                        <li>Notification of application selection</li>
+                        <p>Result of application selection will be notified by around May 10th. If you have passed, you will be notified of the date and time of online meeting.</p>
+                        <li>Online meeting (One day through 5/17～25)</li>
+                        <p>A PM who is interested in your application will have a 10-30 minutes online meeting through website. Result will not be notified in this meeting.</p>
+                        <li>Notification of result</li>
+                        <p>After online meeting, final selection result will be notified around May 28th.</p>
+                    </ol>  
+                    <img src="img/overall-schedule2019.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+     <aside class="bg-primary">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" target="_blank" class="btn btn-default btn-xl wow tada">Apply (By April 28th 23:59）</a>
+                </div>
+            </div>
+     </aside>
+    
+    
+    <section id="pms">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Project Managers for 2019</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 text-center">
+                    <div class="service-box">
+                        <img src="img/unknown.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".05s">
+                        <h3>To be announced</h3>
+                        <div class="social-icons">
+                            <a href="#" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+                            <a href="#" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+                        </div> 
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-left">
+                    <p class="text-info">We will be announcing more PMs soon.</p>
+                </div>
+                <div class="col-lg-2 col-md-2 text-center">
+                    <div class="service-box">
+                        <img src="img/komuro.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".05s">
+                        <h3>Maki Komuro</h3>
+                        <h5>Switch Education, Inc.</h5>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/MKnkgw" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+                            <a href="https://twitter.com/MKnkgw" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+                        </div>         
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Proposal that will interest and excite 3 people around you</p>
+                    <h5>Biography</h5>
+                    <p class="text-muted">CEO of Switch Education, Inc. Ochanomizu University Graduate School of Humanities and Sciences PhD. (Science)2009 Mitou OG. From 2012, involved in activities to spread latest cutting-edge technology to normal, non-expert people at Switch Science, Inc. Current position since 2017. Mainly using education purpose micro computer board micro:bit, takes part in activities to encourage learning through making something that can move by programming. </p>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-lg-2 col-md-2 text-center">
                     <div class="service-box">
@@ -348,6 +337,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Someone who can enthusiastically develop foundation technology project that support applications</p>
                     <h5>Biography</h5>
                     <p class="text-muted">He developed a virtual machine for Ruby named YARV, and it was adopted as a part of Ruby 1.9 in 2007. He's been contributing to Ruby as a committer mainly for speed-up related projects such as performance improvement of virtual machines, and garbage collection. He received Ph.D. in Computer Science from the University of Tokyo. He was also certified as Mitou Super Creator in 2004.</p>
                 </div>
@@ -364,6 +355,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Someone who can take new challenges continuously</p>
                     <h5>Biography</h5>
                     <p class="text-muted">He was certified as Mitou Super Creator in 2002. He also received Ph.D. in Science in 2006, and Master of Management of Technology in 2014. From 2007, he's been working for Cybozu Lab, and working on research projects related to team collaboration software. He published several books in Japanese such as <a href="http://nhiro.org/langbook/" target="_blank">「コーディングを支える技術」</a><a href="https://www.oreilly.co.jp/books/9784873116839/" target="_blank">「word2vecによる自然言語処理」</a>. He's also a board member of Mitou Foundation.</p>
                 </div>
@@ -383,17 +376,26 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Project that use benefits of script language or Web. If you already have moving prototype at application, that will be great ;)</p>
                     <h5>Biography</h5>
-                    <p class="text-muted">CEO of <a href="https://yasslab.jp/" target="_blank">YassLab</a>, Representative of <a href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a>. He received his master's degree in Computer Science from Waseda University, and was certified as Mitou Super Creator. After studyin abroad in the United States, he founded YassLab company that focuses on agile development, education, and translation technology. He likes Ruby/Rails and publishes Japanese <a href="https://railstutorial.jp/" target="_blank">Rails Tutorial</a> and <a href="https://railsguides.jp/" target="_blank">Rails Guides</a>, which are now two of most famous resources in Japanese Ruby community. Using those resources he lectures Web Development at Japanese universities such as <a href="https://aiit.ac.jp/english/" target="_blank">AiiT</a> and <a href="http://www.cs.tsukuba.ac.jp/enPiT/" target="_blank">University of Tsukuba</a>.</p>
+                    <p class="text-muted">
+                        CEO of <a href="https://yasslab.jp/" target="_blank">YassLab</a>, Representative of <a href="https://coderdojo.jp/" target="_blank">CoderDojo Japan</a>. He received his master's degree in Computer Science from Waseda University, and was certified as Mitou Super Creator. After studyin abroad in the United States, he founded YassLab company that focuses on agile development, education, and translation technology. He likes Ruby/Rails and publishes Japanese <a href="https://railstutorial.jp/" target="_blank">Rails Tutorial</a> and <a href="https://railsguides.jp/" target="_blank">Rails Guides</a>, which are now two of most famous resources in Japanese Ruby community. Using those resources he lectures Web Development at Japanese universities such as <a href="https://aiit.ac.jp/english/" target="_blank">AiiT</a> and <a href="http://www.cs.tsukuba.ac.jp/enPiT/" target="_blank">University of Tsukuba</a>.</p>
                 </div>
                 <div class="col-lg-2 col-md-2 text-center">
                     <div class="service-box">
                         <img src="img/yonetsuji.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".05s">
                         <h3>Taizan Yonetsuji</h3>
-                        <h5>Preferred Networks</h5>     
+                        <h5>Preferred Networks</h5>
+                        <div class="social-icons">
+                        <a href="https://twitter.com/tai2an" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+                        <a href="https://paintschainer.preferred.tech/" target="_blank"><i class="fa fa-globe fa-3x"></i></a>
                     </div>
                 </div>
+                </div>
                 <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Project that have feeling of this is possible, if this is realized, it will be awesome.</p>
                     <h5>Biography</h5>
                     <p class="text-muted">He belonged to the RoboCon club in the University of Tokyo, and was responsible for mechanics. He was also a creator of Mitou Project in 2012. 
                         After he received master's degree from the University of Tokyo, he worked for CNC software research institution in Fanuc corporation, and then joined Preferred Networks in 2016. He has been working on Amazon Picking Challenge and other robotics projects. He's best known for <a href="https://paintschainer.preferred.tech/" target="_blank">PaintsChainer</a>  which is automatic painting service using Chainer deep-learning framework developed by Preferred Networks.</p>
@@ -413,6 +415,8 @@
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Project that will increase people who think "Computers are fun!" or "I want to make something with computers!"</p>
                      <h5>Biography</h5>
                     <p class="text-muted">He was certified as Mitou Super Creator in 2013 by his achievement on developing C++ library for game and media-art project named <a href="http://siv3d.jp/" target="_blank">Siv3D</a>.
 He's also been responsible for C++ programming classes for Information Science school for middle and high school students run by Waseda University.</p>
@@ -430,6 +434,8 @@ He's also been responsible for C++ programming classes for Information Science s
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Something that you can enjoy than others. No matter what others say, it's super interesting for you, thinking of it all the time and want to talk to others.</p>
                     <h5>Biography</h5>
                     <p class="text-muted">He's been developing <a href="https://hackforplay.xyz/" target="_blank">HackforPlay</a> to make more students feel coding fun. He was certified as Mitou Super Creator in 2015. He's also a founder of <a href="https://www.facebook.com/coderdojo.kanazawa/" target="_blank">CoderDojo Kanazawa</a>.</p>
                 </div>
@@ -443,19 +449,45 @@ He's also been responsible for C++ programming classes for Information Science s
                         <h5>Gunosy Inc.</h5> 
                         <div class="social-icons">
                             <a href="https://www.facebook.com/yoshifumi.seki" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+                            <a href="https://twitter.com/YoshifumiSeki" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Waiting for proposal from someone who wants to learn how to make a service and deliver to people around, and then to the world.</p>
                     <h5>Biography</h5>
                     <p class="text-muted">He received Ph.D. in Engineering from the University of Tokyo. He was also a Mitou Creator in 2011. When he was a postgraduate student, he co-developed Gunosy, and eventually co-founded the company.
                         He's been responsible for news delivery logic in the company, and he had deep expertise on web-mining focusing on recommendation systems, the application of machine learning, and natural language processing. Additionally, he's a visiting researcher at the University of Tokyo from April of 2017.</p>
                 </div>
+              
+                <div class="col-lg-2 col-md-2 text-center">
+                    <div class="service-box">
+                        <img src="img/ishii.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".05s">
+                        <h3>Sho Ishii</h3>
+                        <h5>Tokyo Institute of Technology</h5>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/kakeru1994" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+                            <a href="https://twitter.com/kyasbal_1994" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+                            <a href="https://github.com/kyasbal-1994" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+                        </div>         
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Proposal about application or library that may not be necessary now, but will be necessary in the future you think of. </p>
+                    <h5>Biography</h5>
+                    <p class="text-muted">
+                        2016 Mitou Super Creator. 2018 Mitou Advaned Innovator. In Mitou, project was about "Web 3D library compatible with Web development," and the OSS Web GL framework developed in this project<a href="https://grimoire.gl/" target="_blank">Grimoire.js</a>'s developer. Started programming since 8 years old, and mainly active in real-time CG technology and web technology.
+                    </p>
+                </div>
+            </div>
+                <div class="row">
                 <div class="col-lg-2 col-md-2 text-center">
                     <div class="service-box">
                         <img src="img/ukai.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s">
                         <h3>Yu Ukai</h3>
-                        <h5>King's College London</h5> 
+                        <h5>Head of Mitou Junior/ Minitry of Education, Culture, Sports, Science and Technology</h5> 
                         <div class="social-icons">
                             <a href="https://www.facebook.com/ukai.yu" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
                             <a href="https://twitter.com/ukkaripon" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
@@ -463,13 +495,232 @@ He's also been responsible for C++ programming classes for Information Science s
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Waiting for these types of person/project</h5>
+                    <p class="text-info">Project that no one will do if you don't.</p>
                     <h5>Biography</h5>
-                    <p class="text-muted">He was certified as a Mitou Super Creator in 2011 as a result of his achievement in the development of an underwater robot for swimming education. After he received master's degree in Arts and Science from the University of Tokyo, he had been working for Microsoft as a Program Manager in Office and Minecraft Education team. He designed many educational products such as Office Lens, Minecraft: Education Edition and Minecraft Hour of Code. <a href="http://yuukai.me/" target="_blank">Now, he left the company and he is a postgraduate student at King's College London for Computer Science Education</a>.</p>
+                    <p class="text-muted">He was certified as a Mitou Super Creator in 2011 as a result of his achievement in the development of an underwater robot for swimming education. After he received master's degree in Arts and Science from the University of Tokyo, he had been working for Microsoft as a Program Manager in Office and Minecraft Education team. He designed many educational products such as Office Lens, Minecraft: Education Edition and Minecraft Hour of Code. <a href="http://yuukai.me/" target="_blank">Now, he left the company and he is working on programming education promotion for elementary schools at MEXT.</a>.</p>
                 </div>
             </div>
         </div>
     </section>
     
+    
+    <aside class="bg-primary">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" target="_blank" class="btn btn-default btn-xl wow tada">Apply (By April 28th 23:59）</a>
+            </div>
+        </div>
+    </aside>
+    
+    <section id="2018">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-left">
+                    <h2 class="section-heading">2018's selected individuals and outcomes</h2>
+                    <p class="text-muted">In 2018, we accepted 12 projects (14individuals) out of 105 applications（☆was accredited as Mitou Junior Super Creator）</p>
+                    <hr class="primary">
+                    <p class="text-muted">Presentation at the final report meeting will be shared as movies later</p>
+                    <p class="text-info"><a href="#mihashi">☆Yuki Mihashi UTIPS - Sharing of house chore information (Yasukawa PM)</a></p>
+                    <p class="text-info"><a href="#hirano">☆Seitaro Hirano Let's English Puzzle! - Fun way to learn English Words by changing cube (Nishio PM)</a></p>
+                    <p class="text-info"><a href="#satou">Rei Satou Smile Meeting Room - Optimize the use of meeting rooms by IoT (Nishio PM)</a></p>
+                    <p class="text-info"><a href="#suegami">☆Sora Suegami Vreath - Development of unique consensus algorithm for easier obtainment of crypto currency (Ukai PM)</a></p>
+                    <p class="text-info"><a href="#shibahara">Yoshinori Shibahara Corkboard - Memo service controlled by location (Suzuki PM)</a></p>
+                    <p class="text-info"><a href="#sueda">Kiichi Sueda/Yu Takami/Misaki Satou TouchBuy - Exploration of EC with the use of VR (Seki PM)</a></p>
+                    <p class="text-info"><a href="#saito">Takeru Saito Robot soccer simulation using reinforcement learning (Yonetsuji PM)</a></p>
+                    <p class="text-info"><a href="#fujimoto">☆Yui Fujimoto Memory Capsule - SNS connected by capsule (Ishii PM)</a></p>
+                    <p class="text-info"><a href="#namikawa">☆Kosaku Namikawa Sound in the forest - Expression of "moving sound" by use of several smartphones (Sasada PM)</a></p>
+                    <p class="text-info"><a href="#nishimura">☆Yui Nishimura Toubans! - Duty notification service that can be set up and notified through LINE(Teramoto PM)</a></p>
+                    <p class="text-info"><a href="#kawahara">Keitaro Kawahara Translation by snapping (Wada PM)</a></p>
+                    <p class="text-info"><a href="#mutou">Hikaru Mutou Life Watcher - Alarm system for people with disease that suddenly get worse (Yonetsuji PM)</a></p>
+                    <hr class="primary">
+                    <p class="text-muted">Past result can be seen here. <a href="2017.html">2017</a> <a href="2016.html">2016</a></p>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 text-center" id="mihashi">
+                    <h3>UTIPS - Sharing of house chore information</h3>
+                    <p class="text-info">Yuki Mihashi (Yasukawa PM)</p>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/t8kpeE_sNB0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                    </div>
+
+                    <h5>Overview</h5>
+                    <p class="text-muted">Developed web service to share how to do house chores. By leaning how other houses do chores, support easier way to do chores.</p>
+                    <h5>Word from Yasukawa PM</h5>
+                    <p class="text-muted">Even though it was first time to develop web service, I want to evaluate high how fast everything was finished including architecture of service's concept and design, development and operation, development of test environment for hearing.
+                        Also, I want to appraise how the web service was improved step by step by actively displaying at Japan's and overseas' event, conducting hearing by dividing data by language, and the style of advancement through dialogue with users and collaboration.
+                        I wish in the future, Yuki will always value "What I want to do" and advance step by step.
+                        </p>
+                </div>
+             <div class="col-lg-6 col-md-6 text-center" id="hirano">
+                    <h3>Let's English Puzzle! - Fun way to learn English Words by changing cube</h3>
+                    <p class="text-info">Seitaro Hirano (Nishio PM)</p>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gqkjUVzhSBU?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                    </div>
+                    <h5>Overview</h5>
+                    <p class="text-muted">Developed infrared communication block and game to allow elementary school kids to learn English words by playing</p>
+                    <h5>Word from Nishio PM</h5>
+                    <p class="text-muted">He had been displaying device for elementary school kids in multiple trade shows before application, and this idea was developed thorough those experiences. Through discussion with Mitou Junior OB at the Boost Camp, he decided to take the challenge of using LCD, which is technically more challenging than first planned LED matrix.
+                            Even though there were many challenges such as increase of memory use because of resolution update and accuracy of infrared communication, he developed something that can actually be used. It was great that he got feedback from actual user interaction with such limited time.    
+                            I want him to continue to develop what he wants to and take many challenges.         
+                           </p>
+                </div>
+            </div>
+      <hr class="primary">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 text-center" id="satou">
+                    <h3>Smile Meeting Room - Optimize the use of meeting rooms by IoT </h3>
+                    <p class="text-info">Rei Satou (Nishio PM)</p>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Z6_Iw8Hvclk?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                    </div>
+
+                    <h5>Overview</h5>
+                    <p class="text-muted">Use IoT device for meeting room scheduling and control the power of equipments in the rooms, help optimize the use of meeting rooms.</p>
+                    <h5>Word from Nishio PM</h5>
+                    <p class="text-muted">This project connects sensors in the meeting rooms and the online scheduling service on the cloud. Rei meticulously followed the schedule set at the Boost Camp. Though there were many troubles often seen in IoT projects, the project was finished by the final presentation and experiment was conducted using actual meeting rooms.
+                            Because of stable project management and final presentation, there was voice from the audience "please come to intern with us." Though as a PM, maybe I should have let Rei to take more uncertain challenges.
+                            I want Rei to continue to take lots of challenges in the future.
+                            </p>
+                 </div> 
+                <div class="col-lg-6 col-md-6 text-center" id="suegami">
+                    <h3>Vreath - Development of unique consensus algorithm for easier obtainment of crypto currency</h3>
+                    <p class="text-info">Sora Suegami (Ukai PM)</p>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Kq7IuLLNC4Y?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                    </div>
+                    <h5>Overview</h5>
+                    <p class="text-muted">Developed a consensus algorithm for new blockchain realization in which everyone can easily obtain crypto currency.</p>
+                    <h5>Word from Ukai PM</h5>
+                    <p class="text-muted">It is great enough that new consensus algorithm for blockchain was developed and can be tested at demonstration level. From now on, other developers need to be involved to realize DApps that run on Vreath, but with the activeness of Suegami-san, deep knowledge about blockchain, and above all, great passion this project can be grown into something that surprises the world, so I hope the project goes on no matter what adults say. </p>
+                </div>
+            </div>
+            <hr class="primary">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 text-center" id="shibahara">
+                    <h3>Corkboard - Memo service controlled by location</h3>
+                    <p class="text-info">Yoshinori Shibahara (Suzuki PM)</p>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rDyqAzppN6M?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                    </div>
+
+                    <h5>Overview</h5>
+                    <p class="text-muted">Proposed design concept of a memo-pad app that changes like forest based on user's data and feeling</p>
+                    <h5>Word from Suzuki PM</h5>
+                    <p class="text-muted">Proposed concept of memo app that is similar to making miniature garden inside forest on the screen, which is different from conventional app. Since not enough time was allotted to learning of coding or development, concept was not deployed and ended as presentation of design. Creator's personal presentation and creation of sketch is eye-opening, so from now on, if developing skill to make something that moves is obtained, it will be great advantage.
+                    </p>
+                </div>    
+              <div class="col-lg-6 col-md-6 text-center" id="sueda">
+                    <h3>TouchBuy - Exploration of EC with the use of VR</h3>
+                    <p class="text-info">Kiichi Sueda/ Yu Takami/ Misaki Sato(Seki PM)</p>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/luBbuzIb1y0?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                    </div>
+                    <h5>Overview</h5>
+                    <p class="text-muted">Considered various ways to provide EC website in VR through many prototypes.</p>
+                    <h5>Word from Seki PM</h5>
+                    <p class="text-muted">"Can't we do shopping easily in VR without going to the actual store?" is an idea that many people have thought of. However, not many have actually done something for that idea. The team made prototype based on hypothesis of EC in VR, and then tested the hypothesis and made another prototype based on a new hypothesis. This was repeated three times. Though the quality of each prototype was not too high, the how they showed the possibilities and issues of EC in VR can be highly evaluated. From now on, I want them to acquire more development skills and release many great products.</p>
+                </div>
+            </div>
+            <hr class="primary">
+            <div class="row">
+                <div class="col-lg-6 col-md-6 text-center" id="saito">
+                    <h3>Robot soccer simulation using reinforcement learning </h3>
+                    <p class="text-info">Takeru Saito (Yonetsuji PM)</p>
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7WnoGTOFRuE?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                    </div>
+                    <h5>Overview</h5>
+                    <p class="text-muted">Development of robot soccer player using reinforcement learning</p>
+                    <h5>Word from Yonetsuji PM</h5>
+                    <p class="text-muted">Soccer using reinforcement learning, with bipedal locomotion was quite difficult and big theme. By using frame of reinforcement learning, trained agent who carry the ball and another agent going to the intended spot. This is still a new research area, and many knowledge and development skills were necessary. I want to highly evaluate the fact that he tackled this difficult task and when learning did not go well, came up with many hypothesis and improved the project based on the verification. This is still part of the entire project, so I want to look for more advancement.</p>
+                </div>    
+             <div class="col-lg-6 col-md-6 text-center" id="fujimoto">
+                    <h3>Memory Capsule - SNS connected by capsule</h3>
+                    <p class="text-info">Yui Fujimoto (Ishii PM)</p>
+
+                    <div class="youtube">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/KgnWDTXwHTY?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                    </div>
+                    <h5>Overview</h5>
+                    <p class="text-muted">Developed SNS in which you can bury virtual capsule based on location and dig it out later.</p>
+                    <h5>Word from Ishii PM</h5>
+                    <p class="text-muted">Modern human learn many things from SNS, post things and act based on these activities. With SNS that allow us to interact with far and rare experiences, have we forgotten findings, being emotionally touched, or actual encounters? Though there are these problems, this project tries to solve them by SNS itself. The project is full of dreams and get you excited. Every week, Fujimoto-san developed fast based on schedule she set, and went through many user test and improvement. The skill to negotiate with many people and the activeness to tackle tasks to enhance the project were reasons why this project went forward a lot. Through what she experienced in this project, I strongly wish for the future with delivering the product that excites many people. </p>
+                </div>
+            </div> 
+            <hr class="primary">
+            <div class="row">
+                    <div class="col-lg-6 col-md-6 text-center" id="namikawa">
+                        <h3>Sound in the forest - Expression of "moving sound" by use of several smartphones </h3>
+                        <p class="text-info">Kosaku Namikawa (Sasada PM)</p>
+                        <div class="youtube">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/H7SCFi0fp7g?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                        </div>
+    
+                        <h5>Overview</h5>
+                        <p class="text-muted">Development of stereophonic sound by realtime synchronization of several smartphones on web browser</p>
+                        <h5>Word from Sasada PM</h5>
+                        <p class="text-muted">Namikawa-san took the challenge of new stereophnic sound based on sound from several smartphones. Heterogeneous dispersed realtime synchronization by only using web technology was quite challenging, but at the Final Presentation, musical performance using 16 smartphones and demo of "sound of the wind" using audiences' about 100 smartphones succeeded and wowed everyone. Goal is larger performance, so even though there are still issues, I want him to realize it.</p>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 text-center" id="nishimura">
+                        <h3>Toubans! -Duty notification service that can be set up and notified through LINE</h3>
+                        <p class="text-info">Yui Nishimura (Teramoto PM)</p>
+    
+                        <div class="youtube">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/c1R1h4ihcgw?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                        </div>
+                        <h5>Overview</h5>
+                        <p class="text-muted">Development of service to assign and notify "touban" at school such as cleaning</p>
+                        <h5>Word from Teramoto PM</h5>
+                        <p class="text-muted">It was great that Nishimura-san not just developed software, but improved it based on feedback from users. LINE bot system was already moving at the time of Mitou acceptance, in Mitou Junior, focused on system in which users can create bot. For users to actually use it, UI needed to be extremely simple, but since the idea came from personal issue, development process was practical. I want him to expand area of interest and challenge many things.</p>
+                    </div>
+                </div> 
+                <hr class="primary">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6 text-center" id="kawahara">
+                        <h3>Translation by snapping</h3>
+                        <p class="text-info">Keitaro Kawahara (Wada PM)</p>
+                        <div class="youtube">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/xTZ4oi6sttA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                        </div>
+        
+                        <h5>Overview</h5>
+                        <p class="text-muted">Development of a smartphone app that translates and shows the name of the object by taking a picture</p>
+                        <h5>Word from Wada PM</h5>
+                        <p class="text-muted">Kawahara-kun proposed new way of translation by showing the name of the object by taking a picture. Since the first proposal, demo was available, and his sense in design and weekly progress, and curiosity and quickness toward development was always surprising. I want to highly evaluate the idea of showing word from picture and the activeness to get 60 questionnaire answers. When he can draw the goal of how to realize based on set process, the project will go forward rapidly and more people will like it. With the unique sense and curiosity, I want him to thrust forward.</p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 text-center" id="mutou">
+                        <h3>Life Watcher - Alarm system for people with disease that suddenly get worse</h3>
+                        <p class="text-info">Hikaru Mutou (Yonetsuji PM)</p>
+    
+                        <div class="youtube">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/srA90rwohUA?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>   
+                        </div>
+                        <h5>Overview</h5>
+                        <p class="text-muted">Development of alarm app that work on smart watch to help people with disease that suddenly get worse</p>
+                        <h5>Word from Yonetsuji PM</h5>
+                        <p class="text-muted"> Mutou-kun had awareness of the issue of his own allergy's difficulty and importance at the time of emergency. He examined possibility of alert system using smartphone and many ways of sending alert at emergency, and then made several apps and experimented. He had no prior app development experience, but studying new technology to move the development forward and tackled a difficult domain with clear sense of issue are evaluated highly. I want him to work on many issues with various viewpoints. </p>
+                    </div>
+                </div>
+        </div>
+
+    </section>
+
+    <aside class="bg-primary">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" target="_blank" class="btn btn-default btn-xl wow tada">Apply (By April 28th 23:59）</a>
+                </div>
+            </div>
+        </aside>
+    
+           
 <section id="supervisor">
         <div class="container">
             <div class="row">
@@ -493,18 +744,138 @@ He's also been responsible for C++ programming classes for Information Science s
                     <p class="text-muted">He was born in Toyama in 1946. After he joined NTT Research Laboratory in 1971, he worked on Lisp and the development of its processing system. After he left the company, he was a professor at the University of Electro-Communications, the University of Tokyo and Waseda University.
                     </p>
                 </div>
+                <div class="col-lg-4 col-md-6 text-left">
+                    <h5>Message</h5>
+                    <p class="text-info">Since Mitou project started in 2000, we have shifted to target younger and younger participants. IT is not something only owned by adults. I believe it's important to find and embrace sense of IT since very young. To do that and realize actual growth of the youth, you need to compete at not the same stage as adults but in projects like Mitou Junior where you can spread your wings. I hope that in Mitou Junior, the juniors not just "learn" but nourish and grow own IT talent in great environment.</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <a href="#" class="btn btn-default btn-xl wow tada" target="_blank">The application for year of 2018 will be open in April, 2018.</a>     
+    <section id="operation">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Operation</h2>
+                    <hr class="primary">
+                </div>
             </div>
         </div>
-    </aside>
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-2 text-center">
+                    <div class="service-box">
+                        <img src="img/arakawa.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s">
+                        <h3>Jumpei Arakawa</h3>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/jumpei.arakawa" target="_blank"><i class="fa fa-facebook-square fa-3x"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-left">
+                    <h5>Background</h5>
+                    <p class="text-muted">Worked on R&D of virtualization of file system at the University of Tokyo's Graduate School and accredited as Super Creator in 2006. Currently, CEO at Infocraft/ Izumo BASE and director at Mitou Foundation.</p>
+                    <h5>Word from Jumpei</h5>
+                    <p class="text-info">Let's break through with idea and technology!</p>
+                </div>
+                <div class="col-lg-2 col-md-2 text-center">
+                    <div class="service-box">
+                        <img src="img/ukai.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s">
+                        <h3>Yu Ukai</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-4 text-left">
+                    <p class="text-muted">Also a PM, so please refer to <a href="#ukai">here</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+     <section class="bg-primary" id="qa">
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">FAQ</h2>
+                    <hr class="light">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>Who runs the project?</b></p>
+                    <p><a href="http://www.mitou.org/">Mitou Foundation</a>runs the project. Volunteer by project manager and Mitou graduates, and support by companies and organization.</p>
+        
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>If accepted to Mitou Junior, what support can I get?</b></p>
+                    <p>Assigned project manager will support development scheduling and development issues once a week for about one hour. Also, up to 500k yen is given per project to cover all the development fee. In addition, there are evens in which all participants come together (such as Boost Meeting/ Mid-Camp) and get feedback from project manager and other Mitou related personnel and experts related to projects.</p>
+                    <p>At the end of project, there is final presentation, and can present what you created in front of many people.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>I live outside Tokyo, so will the transportation fee be covered to attend camps and final presentation?</b></p>
+                    <p>Aside from the project development cost, transportation and camp cost for official events will be given.</p>
+                    
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>It's hard to attend presentations because of hospitalization or living abroad. Can I still apply?</b></p>
+                    <p>No problem. Environment will be set up to present and talk with participants for events using internet calling services. Round trip cost from overseas (in economical and rational range) will be given in addition to the development fee.</p>
+			
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>At my school, working is prohibited, but can I apply?</b></p>
+                    <p>Mitou Junior development fee is strictly for development tool and software. It's not salary paid for labor, so it doesn't count as working.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>I already submitted proposal to IPA's <a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">Exploratory IT Human Resource Project.</a>Can I use the same application?</b></p>
+                    <p>Yes. Same proposal and documents can be used to apply for Mitou Junior.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>I already submitted proposal to IPA's<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">Exploratory IT Human Resource Project.</a>Result has not been notified yet. If accepted for both, what should I do?</b></p>
+                    <p>It is planned that the result of Exploratory IT Human Resource Project's comes before the start of Mitou Junior project. You can decline from the Mitou Junior when both of the results come.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>Should the project be finished during the project period?</b></p>
+                    <p>It is not requirement, but it is good if, even though it's rough, you have prototype to explain to the audience by the final presentation.</p>
+                
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>During the project period, how much time should be put?</b></p>
+                    <p>We will pace the development flexibly for each participant. Mitou Junior is not a job, and students' duty is studying. We don't push participants to certain hours.</p>
+                    
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>Are there any necessary experience or skills?</b></p>
+                    <p>We look for the skill to research and implement about what you want to develop.</p>
+                    
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>In past Mitou Junior, I was accepted or not accepted. Can I apply again?</b></p>
+                    <p>Yes, it's possible.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>For application, do I need parent's agreement?</b></p>
+                    <p>Accepted participants need person in parental authority's agreement before the start of the project, but not needed at the time of application.</p>
+                    
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>What happens if I apply and not accepted?</b></p>
+                    <p>After about one week(depends on number of applications) from the deadline, we will email you. Information about the reason why you were not accepted will not be disclosed.</p>
+                
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>Can I drop out during the project?</b></p>
+                    <p>Yes. Details will be posted later.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>To whom does the rights of developed project belong to?</b></p>
+                    <p>The person that created it.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>What is Mitou Junior Super Creator?</b></p>
+                    <p>Creators with exceptional result will be accredited as "Mitou Junior Super Creator." If accredited, with prior check by the PM, following years' IPA's<a href="https://www.ipa.go.jp/jinzai/mitou/portal_index.html">Exploratory IT Human Resource Project</a>, you can get recommendation and skip the first application selection.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>How is the PM decided?</b></p>
+                    <p>PMs look at all the applicants and select a project they want to support.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>Can I edit what I once applied?</b></p>
+                    <p>To edit the application, you can send the same proposal multiple times. In that case, the old application becomes invalid. We check by hand, so please do not send so many times that we cannot check them.</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>How is the selection result notified?</b></p>
+                    <p>Within several days from each deadline, we send the result to the email submitted on the application form. We ask the selected and chosen ones to reply. If this reply does not come, we give a call. If you are using spam mail filter, please allow email from mitou.org</p>
+
+                    <p><i class="fa fa-question-circle fa-2x question"></i><b>Can I apply several projects?</b></p>
+                    <p>Yes, but only one project will be selected. </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-primary">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" target="_blank" class="btn btn-default btn-xl wow tada">Apply (by April 28th 23:59）</a>
+                </div>
+            </div>
+        </aside>
+    
     <section id="mitou">
          <div class="container">
             <div class="row">
@@ -521,29 +892,63 @@ He's also been responsible for C++ programming classes for Information Science s
     </section>
 
     <section id="sponsor" class="bg-semilight">
-        <div class="container">
+         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Sponsors</h2>
-                    <p>
+                    <h2 class="section-heading">Gold Sponsor</h2>
+
                     <div class="row">  
-                        <a href="http://www.ezoe-mf.or.jp/" target="_blank">
-                        <img src="img/ezoe.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s"></a>
+                        <a href="https://www.future.co.jp/" target="_blank">
+                        <p><img src="img/future.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s"></p></a>
+                    </div>
+
+                    <div class="row">  
+                        <a href="https://www.ezoe-mf.or.jp/" target="_blank">
+                        <p><img src="img/ezoe.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s"></p></a>
+                        <p><h6>This project is suppported by 2018's Ezoe Foundation aid and is supported to grow talent that succeed all over the world.</h6></p>
                     </div>
                     <hr class="primary">
-                    <h2 class="section-heading">Device and Tutorial Sponsors</h2>
+                    <h3>Silver Sponsor</h3>
+                    <p>
+                    <div class="row">  
+                        <a href="https://www.dmm.com/" target="_blank">
+                        <p><img src="img/DMM.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s"></a></p>
+                    </div>
+                    <hr class="primary">
+                    <h4>Bronze Sponsor</h4>
+                    <p>
+                    <div class="row">  
+                        <a href="https://www.procommit.co.jp/" target="_blank">
+                        <img src="img/ProCommit_logo.png" class="img-responsive center-block wow bounceIn" alt="" data-wow-delay=".3s"></a>
+                    </div>
+                    <hr class="primary">
+                    <h2 class="section-heading">Tool and material provision</h2>
                     <div class="row">
-                        <div class="col-lg-2 col-lg-offset-3">
+                        <div class="col-lg-2 col-lg-offset-3 col-md-2 col-md-offset-3 col-sm-4 col-xs-4">
+                            <a href="https://www.microsoft.com/ja-jp/" target="_blank">
+                            <img src="img/microsoft.png" class="img-responsive center-block wow bounceIn logos" alt="Micro:bit Foundation" data-wow-delay=".3s"></a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
                             <a href="http://microbit.org/" target="_blank">
                             <img src="img/microbit-logo-stripped.png" class="img-responsive center-block wow bounceIn logos" alt="Micro:bit Foundation" data-wow-delay=".3s"></a></p>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
                             <a href="https://www.sakura.ad.jp/" target="_blank">
                             <img src="img/sakura.png" class="img-responsive center-block wow bounceIn logos" alt="さくらインターネット" data-wow-delay=".3s"></a></p>
                         </div>
-                        <div class="col-lg-2">
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-2 col-lg-offset-3 col-md-2 col-md-offset-3 col-sm-4 col-xs-4">
                             <a href="https://yasslab.jp/" target="_blank">
-                            <img src="img/YassLab_rect_copy.png" class="img-responsive center-block wow bounceIn logos" alt="YassLab" data-wow-delay=".3s"></a></p>
+                            <img src="img/YassLab_logo.png" class="img-responsive center-block wow bounceIn logos" alt="YassLab 株式会社" data-wow-delay=".3s"></a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                            <a href="https://prog-8.com/" target="_blank">
+                            <img src="img/Progate_logo.png" class="img-responsive center-block wow bounceIn logos" alt="Progate" data-wow-delay=".3s"></a></p>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                            <a href="https://aidemy.net/" target="_blank">
+                            <img src="img/aidemy_logo.png" class="img-responsive center-block wow bounceIn logos" alt="Aidemy" data-wow-delay=".3s"></a></p>
                         </div>
                     </div>
                 
@@ -552,7 +957,7 @@ He's also been responsible for C++ programming classes for Information Science s
                     <div class="row">
                         <div class="col-lg-2 col-lg-offset-4">
                             <a href="https://www.watch.impress.co.jp/kodomo_it/" target="_blank">
-                            <img src="img/kodomo.png" class="img-responsive center-block wow bounceIn logos" alt="こどもとIT" data-wow-delay=".3s"></a></p>
+                            <img src="img/kodomo.png" class="img-responsive center-block wow bounceIn logos" alt="Kids and IT" data-wow-delay=".3s"></a></p>
                         </div>
                         <div class="col-lg-2">
                             <a href="https://edtechzine.jp/" target="_blank">
@@ -565,19 +970,20 @@ He's also been responsible for C++ programming classes for Information Science s
         </div>
     </section>
 
-    <section id="support">
+    <section id="supporter">
          <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Supported by</h2>
-                    <hr class="primary"><a href="http://www.meti.go.jp/" target="_blank">
-                    <img src="img/meti.jpg" class="img-responsive center-block wow bounceIn logo" alt="" data-wow-delay=".3s"></a>
+                    <hr class="primary">
+                    <a href="http://www.mext.go.jp/" target="_blank"><img src="img/mext.png" class="img-responsive center-block wow bounceIn logo" alt="" data-wow-delay=".3s"></a>
+                    <a href="http://www.meti.go.jp/" target="_blank"><img src="img/meti.png" class="img-responsive center-block wow bounceIn logo" alt="" data-wow-delay=".3s"></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="support" class="bg-primary">
+    <section id="collaborator" class="bg-primary">
          <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -587,33 +993,36 @@ He's also been responsible for C++ programming classes for Information Science s
             </div>
         </div>
         
+
         <div class="container">
             <div class="row">
-                <div class="col-lg-12 text-center">
+                <div class="text-center">
                     <div class="row">
-                        <div class="col-lg-2 col-lg-offset-4">
+                        <div class="col-lg-2 col-md-2 col-lg-offset-2 col-md-offset-2 col-sm-4 col-xs-4">
                             <a href="https://coderdojo.jp/" target="_blank">
                             <img src="./img/CoderDojo Japan Banner.png" class="logos img-responsive center-block wow bounceIn" alt="CoderDojo Japan" data-wow-delay=".3s"></a>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
                             <a href="https://life-is-tech.com/" target="_blank">
                             <img src="./img/lifeistech-logo.png" class="logos img-responsive center-block wow bounceIn" alt="Life is Tech!" data-wow-delay=".3s"></a>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="row">
-                        <div class="col-lg-2 col-lg-offset-3">
-                            <a href="http://tobitate.mext.go.jp/" target="_blank">
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                            <a href="https://tobitate.mext.go.jp/" target="_blank">
                             <img src="./img/tobitate.png" class="logos img-responsive center-block wow bounceIn" alt="トビタテ！留学JAPAN" data-wow-delay=".3s"></a>
                         </div>
-                        <div class="col-lg-2">
-                            <a href="http://www.u22procon.com/" target="_blank">
-                            <img src="./img/bn_u22_2017.jpg" class="logos img-responsive center-block wow bounceIn" alt="U-22プログラミングコンテスト" data-wow-delay=".3s"></a>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                            <a href="https://www.gp-award.jp/" target="_blank">
+                            <img src="./img/GPA_banner_201803.jpg" class="logos img-responsive center-block wow bounceIn" alt="ぐんまプログラミングアワード" data-wow-delay=".3s"></a>
                         </div>
-                        <div class="col-lg-2">
+                        <div class="col-lg-2 col-lg-offset-3 col-md-offset-3 col-md-2 col-sm-4 col-xs-4">
+                            <a href="https://techkidsschool.jp/" target="_blank">
+                            <img src="./img/TKS_1408x300_white.png" class="logos img-responsive center-block wow bounceIn" alt="Tech Kids School" data-wow-delay=".3s"></a>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
+                            <a href="https://u22procon.com/" target="_blank">
+                            <img src="./img/U22_banner_234_60.jpg" class="logos img-responsive center-block wow bounceIn" alt="U-22プログラミングコンテスト" data-wow-delay=".3s"></a>
+                        </div>
+                        <div class="col-lg-2 col-md-2 col-sm-4 col-xs-4">
                             <a href="http://www.procon.gr.jp/" target="_blank">
                             <img src="./img/linkbnr_kousen.gif" class="logos img-responsive center-block wow bounceIn" alt="高専プロコン" data-wow-delay=".3s"></a>
                         </div>
@@ -623,15 +1032,26 @@ He's also been responsible for C++ programming classes for Information Science s
         </div>
     </section>
 
+    <aside class="bg-primary">
+            <div class="container text-center">
+                <div class="call-to-action">
+                    <a href="https://mitoujr.wufoo.com/forms/wvyka0l1sxu574/" target="_blank" class="btn btn-default btn-xl wow tada">Apply (By April 28th 23:59）</a>
+                </div>
+            </div>
+        </aside>
+
     <section id="contact">
         <div class="container">
             <div class="row text-center">
                 <h2 class="section-heading">Contact</h2>
                 <hr class="primary">
+                <p>Reply may be late, but please be considerate.</p>
+                <p>If you can help us distribute flyers, please request<a href="https://goo.gl/forms/LbmaEz1kNrN1WFgt2">here</a>.</p>
             </div>
             <div class="row text-center">
                 <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
             <p><a href="mailto:jr@mitou.org">jr@mitou.org</a></p>
+            <p><a href="./privacy-policy.html">Privacy Policy</a></p>
             
             <div class="fb-page" data-href="https://www.facebook.com/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2-256249264788982/" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2-256249264788982/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/%E6%9C%AA%E8%B8%8F%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2-256249264788982/">未踏ジュニア</a></blockquote></div>
             
@@ -652,7 +1072,7 @@ He's also been responsible for C++ programming classes for Information Science s
 
     <!-- Custom Theme JavaScript -->
     <script src="js/creative.js?date=0523"></script>
-
+</div>
 </body>
 
 </html>
