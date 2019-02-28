@@ -109,6 +109,17 @@ aside {
     color: #28A13A;
 }
 
+.navbar-default .navbar-header .navbar-lang {
+    font-family: 游ゴシック体, 'Yu Gothic', YuGothic, 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo, Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    font-weight: 200;
+    color:rgba(255,255,255,.7);
+    font-size: 8px;
+    line-height: 20px;
+    padding-right: 5px;
+    margin-top: 17px;
+    float: left;
+}
+
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
     color: #28A13A;
