@@ -47,8 +47,8 @@
     
     $.notify({
 	// options
-	    message: '2019年度未踏ジュニアのオンライン説明会を開催しました。',
-        url: "https://www.youtube.com/playlist?list=PLNObH2jlC6lfFCBZeq10OrpsEOdSGkkBd&disable_polymer=true",
+	    message: '2019年度最終成果報告会を10/22に行います。',
+        url: "https://mitoupgwg.connpass.com/event/140704/",
         target: "_blank"
     },{
 	// settings
