@@ -1,5 +1,7 @@
 # 未踏ジュニア公式サイト
 
+[![Cover Photo](https://jr.mitou.org/img/mitoujr_cover.png)](https://jr.mitou.org/)
+
 [未踏ジュニア](https://jr.mitou.org/)公式Webサイトのリポジトリです。
 
 ## Libraries and Themes
