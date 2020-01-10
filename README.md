@@ -9,4 +9,4 @@
 
 ## Copyright
 
-Copyright 2016-2018 &copy; [Mitou Foundation](https://www.mitou.org/) [未踏ジュニア](https://jr.mitou.org/) プログラミングWG
+Copyright 2016-2020 &copy; [Mitou Foundation](https://www.mitou.org/) [未踏ジュニア](https://jr.mitou.org/) プログラミングWG
