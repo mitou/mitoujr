@@ -1,6 +1,8 @@
+**:warning: 未踏ジュニアの旧Webサイトのリポジトリです。最新版は [:octocat: mitou/jr.mitou.org](https://github.com/mitou/jr.mitou.org) からご確認いただけます。**
+
 # 未踏ジュニア公式サイト
 
-[![Cover Photo](https://jr.mitou.org/img/mitoujr_cover.png)](https://jr.mitou.org/)
+[![Cover Photo](https://github.com/mitou/mitoujr/blob/master/img/mitoujr_cover.png?raw=true)](https://jr.mitou.org/)
 
 [未踏ジュニア](https://jr.mitou.org/)公式Webサイトのリポジトリです。
 
